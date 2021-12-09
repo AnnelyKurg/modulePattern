@@ -21,3 +21,4 @@ const ItemController = (function () {
 })();
 
 ItemController.add({id:1, name: 'Kate'})
+console.log(ItemController.get(1))
